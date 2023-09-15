@@ -4,7 +4,7 @@ TODO - Chris to add a Table Of Contents
 
 ## Architects and Engineers
 
-- [George Karsas](www.linkedin.com/in/george-karsas-5591816b)
+- [George Karsas](https://www.linkedin.com/in/george-karsas-5591816b)
 - [Chris Kleb](https://za.linkedin.com/in/chris-kleb-75738218)
 - [Hiren Chhiba](https://www.linkedin.com/in/hiren-c-24a2601/)
 - [Henry Oliver](https://za.linkedin.com/in/henry-oliver-6263356)
