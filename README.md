@@ -22,8 +22,6 @@ Table of Contents
 
 # The Road Warrior 
 
-
-
 ## Architects and Engineers
 
 - [George Karsas](https://www.linkedin.com/in/george-karsas-5591816b)
@@ -41,17 +39,17 @@ An online platform to make travel plans easier which organises to book a flight,
 
 ## Business requirements
 ### Short term
-- a self-booking software travelers can use to make business travel booking system online.
+- A self-booking software travelers can use to make business travel booking system online.
 - Alerts travelers with flight changes and reminders
 - Available globally, 2 million users, 15 million user accounts.
 - Integrate with travel systems abd travel agents
 
 ### Long term
-- allow booking for other travel mediums
-- travel expense reporting (capture images of receipts and submit expense reports)
+- Allow booking for other travel mediums
+- Travel expense reporting (capture images of receipts and submit expense reports)
 - Provide summary reports for users
 - Concierge Services
-- interactive airport and travel maps
+- Interactive airport and travel maps
 
 ## Principles
 - Simple business processes
@@ -65,7 +63,8 @@ An online platform to make travel plans easier which organises to book a flight,
 - Countries that has users in : Worldwide
 - Service hours: 24 *7
 - Peak hours: 10h00 - 18h00 (GMT)
-- Availability percentage: 99.99905%
+- Availability percentage: 99.99905% 
+
 ## Benefits
 - Simplifies booking - by combining flight and hotel options into a single package.
 - Enhances travel personalization - enhances personalization by studying employees’ booking patterns and using predictive analytics
@@ -132,16 +131,16 @@ Description of the conceptual architecture navigation can be found [here](./Conc
 
 #### Component Descriptions
 
-- MSAL: Microsoft Authentication Library, a set of client libraries used to authenticate users and acquire tokens in order to access protected resources such as Microsoft Graph or other APIs that support Microsoft Azure Active Directory (Azure AD) authentication.
-- RESTful Interface: A type of web service that uses HTTP methods (GET, POST, PUT, DELETE) to interact with resources in a stateless manner.
-- Business Logic Layer: The layer of an application that contains the core business logic and rules that govern the behavior of the system.
-- Repository Layer: The layer of an application that provides an abstraction over the database, allowing the application to interact with data in a more object-oriented way.
-- Provider Layer: The layer of an application that provides access to external services, such as payment gateways or email services.
-- Observability: The ability to measure and monitor the performance and behavior of a system, often through the use of logging, metrics, and tracing.
-- Event Subscriber: A component that listens for events published by other components and takes action based on those events.
-- Event Publisher: A component that publishes events to a message broker or other system, allowing other components to subscribe to those events.
-- External Service: A service provided by a third-party, such as a payment gateway or email service.
-- Database: A structured collection of data that is stored electronically, often used to persist application data.
+- **MSAL**: Microsoft Authentication Library, a set of client libraries used to authenticate users and acquire tokens in order to access protected resources such as Microsoft Graph or other APIs that support Microsoft Azure Active Directory (Azure AD) authentication.
+- **RESTful Interface**: A type of web service that uses HTTP methods (GET, POST, PUT, DELETE) to interact with resources in a stateless manner.
+- **Business Logic Layer**: The layer of an application that contains the core business logic and rules that govern the behavior of the system.
+- **Repository Layer**: The layer of an application that provides an abstraction over the database, allowing the application to interact with data in a more object-oriented way.
+- **Provider Layer**: The layer of an application that provides access to external services, such as payment gateways or email services.
+- **Observability**: The ability to measure and monitor the performance and behavior of a system, often through the use of logging, metrics, and tracing.
+- **Event Subscriber**: A component that listens for events published by other components and takes action based on those events.
+- **Event Publisher**: A component that publishes events to a message broker or other system, allowing other components to subscribe to those events.
+- **External Service**: A service provided by a third-party, such as a payment gateway or email service.
+- **Database**: A structured collection of data that is stored electronically, often used to persist application data.
 
 ### Logical Architecture Overview 
 Description of the logical architecture navigation can be found [here](./Logical%20Architecture/LogicalArchitectureDescription.md)
