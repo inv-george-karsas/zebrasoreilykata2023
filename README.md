@@ -1,6 +1,28 @@
+Table of Contents
+
+1. [The Road Warrior](#the-road-warrior)  
+    1.1 [Architects and Engineers](#architects-and-engineers)  
+    1.2 [Background](#background)  
+    1.3 [Objective](#objective)  
+    1.4 [Business Requirements](#business-requirements)  
+    1.5 [Principles](#principles)  
+    1.6 [Drivers](#drivers)  
+    1.7 [Benefits](#benefits)  
+    1.8 [Technical considerations](#technical-considerations)  
+    1.9 [ADR Registry](#adr-registry)  
+    1.10 [NFR Registry](#nfr-registry)  
+
+2. [Architecture](#architecture)  
+    2.1 [Conceptual Architecture](#conceptual-architecture)  
+    2.2 [Logical Architecture](#logical-architecture)  
+    2.3 [Component Descriptions](#component-descriptions)  
+    2.4 [General Application Design ](#general-application-design)  
+    2.5 [Logical Architecture Overview](#logical-architecture-overview)  
+    2.6 [User Interface](#user-interface)  
+
 # The Road Warrior 
 
-TODO - Chris to add a Table Of Contents
+
 
 ## Architects and Engineers
 
@@ -76,8 +98,22 @@ An online platform to make travel plans easier which organises to book a flight,
     - Data compliance
         - Data Protection (European Union - GDPR)
 
-## [ADR Registry](./Docs/ADR_Registry.md)
 ## [NFR Registry](./Docs/NFR_Registry.md)
+We have identified several Non Functional Requirements that need to be addressed in the solution.
+## [ADR Registry](./Docs/ADR_Registry.md)
+We have made several Architecture Decisions that will allow the solution to deliver the NFRs.
+
+## ADR to NFR Mapping
+This table illustrates how the Architecture Decisions Map to the Non Functional Requirements
+
+| NFR                  | ADR 01 | ADR 02 | ADR 03 | ADR 04 | ADR 05| ADR 06 | ADR 07 | ADR 08| ADR 09 |
+| ---                  | ------ | ------ | ------ | ------ | ----- | ------ | ------ | ----- | ------ |
+| 01 - Performance     |   x    |    x   |   x    |        |   x   |        |   x    |       |   x    |
+| 02 - Scalability     |        |    x   |   x    |    x   |   x   |        |   x    |       |   x    |
+| 03 - Availability    |        |    x   |        |        |   x   |        |   x    |       |        |
+| 04 - Security        |   x    |        |        |        |   x   |        |        |   x   |        |
+| 05 - Reliability     |        |    x   |        |    x   |   x   |        |        |       |        |
+| 06 - Maintainability |   x    |        |   x    |    x   |   x   |    x   |        |   x   |        |
 
 # Architecture 
 
@@ -88,6 +124,7 @@ Description of the conceptual architecture navigation can be found [here](./Conc
 ![ConceptualArchitecture](./Conceptual%20Architecture/Conceptual_Architecture.jpg)
 
 ## Logical Architecture
+
 
 ### General Application Design 
 
@@ -107,6 +144,7 @@ Description of the conceptual architecture navigation can be found [here](./Conc
 - Database: A structured collection of data that is stored electronically, often used to persist application data.
 
 ### Logical Architecture Overview 
+Description of the logical architecture navigation can be found [here](./Logical%20Architecture/LogicalArchitectureDescription.md)
 
 ![LogicalArchitectureOverview](./Logical%20Architecture/Logical_Architecture.jpg)
 

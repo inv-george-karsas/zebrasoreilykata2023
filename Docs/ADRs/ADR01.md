@@ -10,7 +10,6 @@ When creating a microservice, in order to speed up development of the applicatio
 
 ## Decision
 
-- This is in relation to [NFR01](../linkToNfr)
 - All applications with a restful interface will use MSAL as an Authorization/Authentication mechanism
 - All Applications will follow a CQRS pattern, with a flavor of DDD as well as repository design.
 - All applications that will need to consume or publish an event will conform to the EVENTS PLATFORM.
