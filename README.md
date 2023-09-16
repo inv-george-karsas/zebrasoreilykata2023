@@ -39,9 +39,9 @@ An online platform to make travel plans easier which organises to book a flight,
 
 ## Business requirements
 ### Short term
-- A self-booking software travelers can use to make business travel booking system online.
+- A self-booking software travelers can use to make business travel booking system online
 - Alerts travelers with flight changes and reminders
-- Available globally, 2 million users, 15 million user accounts.
+- Available globally, 2 million users, 15 million user accounts
 - Integrate with travel systems abd travel agents
 
 ### Long term
@@ -66,11 +66,11 @@ An online platform to make travel plans easier which organises to book a flight,
 - Availability percentage: 99.99905% 
 
 ## Benefits
-- Simplifies booking - by combining flight and hotel options into a single package.
+- Simplifies booking - by combining flight and hotel options into a single package
 - Enhances travel personalization - enhances personalization by studying employees’ booking patterns and using predictive analytics
-- Enables travel cost savings -  offers an extensive inventory of flights and hotels sourced from a Global Distribution System.
-- Provides 24/7 support - can reach out to the solution provider’s support team via multiple channels like calls, chats, and emails and get the required help.
-- Leverages travel analytics - summarizes your travel booking data into customizable travel analytics dashboards and reports for better understanding.
+- Enables travel cost savings -  offers an extensive inventory of flights and hotels sourced from a Global Distribution System
+- Provides 24/7 support - can reach out to the solution provider’s support team via multiple channels like calls, chats, and emails and get the required help
+- Leverages travel analytics - summarizes your travel booking data into customizable travel analytics dashboards and reports for better understanding
 
 ## Technical considerations 
 
@@ -84,7 +84,7 @@ An online platform to make travel plans easier which organises to book a flight,
 - Performance - 5 miuntes unplanned downtime annualy allowed + 800ms response time
     - Data caching + content delivery network ( content compression + Edge computing)
     - Load balancing
-    - Asynchronous processing??
+    - Asynchronous processing
     - DB query optimization
 - Security
     - Authentication
